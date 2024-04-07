@@ -25,7 +25,7 @@ Kuzma Clothing & Shoes is a fashion eCommerce website design that's built with t
 # Instructions
 1. To run the app you first need to download and install Node.js and npm on your computer. When you download them you need to configure path variables. Here is the link where you can install them: https://nodejs.org/en
 2. When you install Node.js and npm on your computer you need to download the project. When you download the project, you need to extract it.
-3. After you extract the project you need to write: 
+3. After you extract the project you need to open the project folder in your terminal of choice and write: 
 ```
 npm install
 ```
