@@ -24,10 +24,16 @@ Kuzma Clothing & Shoes is a fashion eCommerce website design that's built with t
 
 # Instructions
 1. To run the app you first need to downlod and install Node.js and npm on your computer. When you download them you need to configure path variables. Here is the link where you can install them: https://nodejs.org/en
-2. When you install Node.js and npm on your computer you need to download the project. When you download the project, you need first to open the first terminal and write: npm install
-3. After that in the same terminal write: npm run dev
-4. The third step is mandatory if you don't have json-server installed on your computer. Open a second terminal write the following: npm install -g json-server
-5. When you do it, you need to open second terminal and run JSON server on port 8080. Just write in the second terminal: json-server --watch src/data/db.json --port 8080
+2. When you install Node.js and npm on your computer you need to download the project. When you download the project, you need first to write:
+```
+npm install
+```
+3. After that write:
+```
+npm start
+```
+4. Open the app in your browser on the address: http://localhost:5173
+
 
 # Have problems while running the app? Here is the recorded video instruction how to run it:
 https://www.youtube.com/watch?v=4VGZhDXticc
