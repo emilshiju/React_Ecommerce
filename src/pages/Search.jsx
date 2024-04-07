@@ -10,11 +10,11 @@ const Search = () => {
 
   const handleSearch = async (e) => {
     e.preventDefault();
-    setCurrentPage(prevState =>  1);
+    setCurrentPage(prevState => 1);
     setSearchTerm(prevState => e.target.search.value);
     try {
       const response = await axios(
-        `http://localhost:8080/products?q=${e.target.search.value}&&_page=${currentPage}`
+        `http://localhost:8080/products?q=${e.target.search.value}&_page=${currentPage}`
       );
       const data = response.data;
       setProducts(data);
@@ -25,20 +25,20 @@ const Search = () => {
 
   const handleSearchPagination = async () => {
     try {
-        const response = await axios(
-          `http://localhost:8080/products?q=${searchTerm}&&_page=${currentPage}`
-        );
-        const data = response.data;
-        setProducts(data);
-      } catch (error) {
-        console.log(error.response);
-      }
+      const response = await axios(
+        `http://localhost:8080/products?q=${searchTerm}&_page=${currentPage}`
+      );
+      const data = response.data;
+      setProducts(data);
+    } catch (error) {
+      console.log(error.response);
+    }
   }
 
   return (
     <>
       <SectionTitle title="Search" path="Home | Search" />
-      
+
       <form
         className="form-control max-w-7xl mx-auto py-10 px-10"
         onSubmit={handleSearch}
@@ -72,9 +72,9 @@ const Search = () => {
         </div>
       </form>
       {searchTerm && products.length !== 0 && <h2 className="text-center text-6xl my-10 max-lg:text-4xl max-sm:text-2xl max-sm:my-5 text-accent-content">Showing results for "{searchTerm}"</h2>}
-      {products.length === 0 && searchTerm && <h2 className="text-center text-6xl my-10 max-lg:text-4xl max-sm:text-2xl max-sm:my-5 text-accent-content">No results found for "{searchTerm}"</h2> }
+      {products.length === 0 && searchTerm && <h2 className="text-center text-6xl my-10 max-lg:text-4xl max-sm:text-2xl max-sm:my-5 text-accent-content">No results found for "{searchTerm}"</h2>}
       <div className="grid grid-cols-4 px-2 max-w-7xl mx-auto gap-y-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 shop-products-grid">
-        {products &&
+        {products && Array.isArray(products) &&
           products.map((product) => (
             <ProductElement
               key={nanoid()}
@@ -87,7 +87,7 @@ const Search = () => {
             />
           ))}
 
-      
+
       </div>
       <SearchPagination
         currentPage={currentPage}

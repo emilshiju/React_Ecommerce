@@ -111,7 +111,7 @@ const Filters = () => {
         name="price"
         label="select price"
         size="range-sm"
-        price={300}
+        price={2000}
       />
       {/* Date Picker */}
       <FormDatePicker label="select minimum production date" name="date" />
