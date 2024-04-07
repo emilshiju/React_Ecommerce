@@ -23,16 +23,17 @@ Kuzma Clothing & Shoes is a fashion eCommerce website design that's built with t
 - React Ecommerce Boilerplate: Developers can use this project as a boilerplate, enjoying a pre-configured environment that accelerates development cycles.
 
 # Instructions
-1. To run the app you first need to downlod and install Node.js and npm on your computer. When you download them you need to configure path variables. Here is the link where you can install them: https://nodejs.org/en
-2. When you install Node.js and npm on your computer you need to download the project. When you download the project, you need first to write:
+1. To run the app you first need to download and install Node.js and npm on your computer. When you download them you need to configure path variables. Here is the link where you can install them: https://nodejs.org/en
+2. When you install Node.js and npm on your computer you need to download the project. When you download the project, you need to extract it.
+3. After you extract the project you need to write: 
 ```
 npm install
 ```
-3. After that write:
+3. After the installation is complete write:
 ```
 npm start
 ```
-4. Open the app in your browser on the address: http://localhost:5173
+4. Open the app in your browser on the address: http://localhost:5173 and enjoy :)
 
 
 # Have problems while running the app? Here is the recorded video instruction how to run it:
