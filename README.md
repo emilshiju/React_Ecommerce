@@ -22,6 +22,9 @@ Kuzma Clothing & Shoes is a fashion eCommerce website design that's built with t
 - React Ecommerce App: The structure of the application is designed to serve as a robust React eCommerce platform.
 - React Ecommerce Boilerplate: Developers can use this project as a boilerplate, enjoying a pre-configured environment that accelerates development cycles.
 
+# Have problems while running the app? Here is the recorded step by step video instruction how to run it:
+[https://www.youtube.com/watch?v=4VGZhDXticc](https://youtu.be/hLlI7eMLw3M)
+
 # Instructions
 1. To run the app you first need to download and install Node.js and npm on your computer. When you download them you need to configure path variables. Here is the link where you can install them: https://nodejs.org/en
 2. When you install Node.js and npm on your computer you need to download the project. When you download the project, you need to extract it.
@@ -34,10 +37,6 @@ npm install
 npm start
 ```
 4. Open the app in your browser on the address: http://localhost:5173 and enjoy :)
-
-
-# Have problems while running the app? Here is the recorded video instruction how to run it:
-https://www.youtube.com/watch?v=4VGZhDXticc
 
 # Key Features:
 - Extensive Product Range: Over 100 distinct clothing and shoe items, catering to a wide array of styles and preferences.
