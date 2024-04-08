@@ -22,7 +22,7 @@ Kuzma Clothing & Shoes is a fashion eCommerce website design that's built with t
 - React Ecommerce App: The structure of the application is designed to serve as a robust React eCommerce platform.
 - React Ecommerce Boilerplate: Developers can use this project as a boilerplate, enjoying a pre-configured environment that accelerates development cycles.
 
-# Have problems while running the app? Here is the recorded step by step video instruction how to run it:
+# Here is the recorded step-by-step video instruction on how to run the app:
 [https://www.youtube.com/watch?v=4VGZhDXticc](https://youtu.be/hLlI7eMLw3M)
 
 # Instructions
